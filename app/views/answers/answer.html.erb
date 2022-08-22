@@ -1,0 +1,12 @@
+<div class='container'>
+  <h1>Stupid Coaching</h1>
+  <div id='your-answer' class='display-card'>
+    <p><%= @question %></p>
+    <p class="name-tag">- You</p>
+  </div>
+  <div id='coach-answer' class='display-card'>
+    <p><%= @answer %></p>
+    <p class="name-tag">- Coach</p>
+  </div>
+ <p><%= link_to "Ask another question", ask_path, style: "text-decoration: none" %></p>
+</div>
